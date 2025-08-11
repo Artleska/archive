@@ -1,18 +1,18 @@
 // 📁 js/mangas.js
 
 export const genresMangas = [
-  "abu", "academy", "acting", "action", "adopted", "androgine", "animals", "apocalypse", "art",
-  "arts-martiaux", "aventure", "badass", "beast world", "business", "brother", "caretaker",
-  "child lead", "comédie", "contrat de mariage", "cooking", "crossdressing", "cultivation",
-  "drame", "disciple", "divorce", "dungeon", "enfant", "fantasy", "father", "female lead",
-  "food", "jeux vidéo", "ghosts", "harem", "historical", "horreur", "isekai", "idol",
-  "long life", "magie", "male lead", "manga", "mature", "mécanique", "médicale", "militaire",
-  "moderne", "monstre", "mother", "murim", "multi world", "multi life", "musique", "mystère",
-  "novel", "omegaverse", "power", "prof", "psychologique", "réincarnation", "return",
-  "revenge", "rich", "romance", "saint", "school life", "slice of Life", "seconde chance",
-  "secret identity", "secte", "sick", "smart", "sport", "supernatural", "survie",
-  "système", "teacher", "temps", "time travel", "traître", "trahison", "vampire",
-  "veuve", "video game", "voisin", "war", "world building", "yandere"
+  "abu","abandoned", "academy", "acting", "action", "athlete", "adopted","alien", "androgine", "animals", "animal characteristics","ancestor","amnesia","a.i.", "apocalypse", "art","arttist",
+  "arts-martiaux", "aventure","aveugle", "badass", "beast world","beast tamer", "business", "brother", "caretaker",
+  "célèbre","child lead","changement d'apparence","change species","cohabitation","constellation", "comédie", "contrat de mariage", "cooking", "crazy", "criminel", "crossdressing", "cultivation",
+  "demon", "designer","drame", "disciple", "divorce","différence d'age", "dungeon","échange de corps","esclave", "enfant", "enfer","fantasy", "father", "female lead", "farmer",
+  "food", "jeux vidéo","game become reality","gender transformation", "ghosts", "guerre","handicap", "harcelé","harem", "healer", "historical", "horreur", "hero", "isekai", "idol","invinble","intelligent",
+  "lazy", "library","long life", "magie", "male lead","maid", "manga", "mature","mariage arrangé", "mariage", "mécanique", "médicale", "mental aspital", "mental illness","mendiant", "meurtre","militaire",
+  "moderne","mort", "monstre", "mother","monde parallèle", "murim", "multi world", "multi life", "musique", "mystère",
+  "novel","noble","non humain", "omegaverse", "overpowered", "patisserie","power","police", "prof", "psychologique" ,"pregnancy", "rajeunissement", "reclus", "réincarnation", "relic","remarriage","return","retraite","revival",
+  "revenge", "rich", "romance", "saint","sans habrie", "school life","science","servant","showbiz","special ability", "slice of Life", "seconde chance",
+  "secret identity", "secte", "sick", "sport","suicide", "supernatural", "survie",
+  "système", "tattoo", "temps","time limit", "time travel", "tower", "tyrant","transmigration","transformation", "traître", "trahison","ugly", "vampire", "villainess","villain",
+  "veuve", "writer","yuri", "yaoi", "zombie"
 ];
 
 // ✅ Vérifie si une œuvre est bien un manga

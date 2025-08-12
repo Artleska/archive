@@ -142,7 +142,7 @@ function selectStatut(role = "ALL") {
 
 const champsManga = [
   champ("Titre", "title", true, "text", true, "ALL"),
-  champ("Autres titres", "otherTitles", false, "text", true, "ALL"),
+  textarea("Autres titres", "otherTitles","ALL"),
   champ("Image (URL)", "image", false, "url", false, "ALL"),
   selectStatut("ALL"),
   textarea("Description", "description", "ALL"),

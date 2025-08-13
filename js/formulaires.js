@@ -6,7 +6,7 @@ import { genresFilms } from './films.js';
 import { genresSeries } from './series.js';
 import { genresNovels } from './novels.js';
 
-const statutPossibles = ["en cours", "terminé", "abandonné"];
+const statutPossibles = ["en cours","pause", "terminé", "abandonné"];
 
 function createForm(formId, genres, collectionName, fields) {
   const container = document.getElementById(formId);

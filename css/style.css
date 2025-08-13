@@ -66,6 +66,24 @@ body {
   text-shadow: 0 0 2px var(--primary-glow);
 }
 
+/* Par défaut (grand écran) -> comportement Bootstrap */
+.navbar-nav {
+  gap: 20px; /* petit espace entre les liens */
+}
+
+/* Sur mobile, quand le menu hamburger est ouvert */
+@media (max-width: 991px) { /* breakpoint lg de Bootstrap */
+  .navbar-nav {
+    flex-direction: row !important; /* côte à côte */
+    flex-wrap: wrap;                /* retour à la ligne si besoin */
+    justify-content: center;        /* centrer les liens */
+    text-align: center;
+    gap: 1px;
+    padding: 1px 0;
+  }
+
+}
+
 /* === ONGLETS FORMULAIRES === */
 #onglets-formulaires {
   display: flex;
